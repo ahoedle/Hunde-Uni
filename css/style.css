@@ -15,7 +15,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     margin: 0;
     font-size: 13px;
@@ -33,6 +33,14 @@ div.fb-like-box.fb_iframe_widget {
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-bottom: 10px;
+}
+
+.green {
+	color: #a7bd6a;
+}
+
+.bold {
+	font-weight: 900;
 }
 
 .uiBoxLightblue {
@@ -88,7 +96,7 @@ textarea {
 
 /* H1&H3  for page titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 0 0px 0;
     font-weight: 500;
     color: #4b4b4b;
@@ -139,7 +147,7 @@ a:hover {
 }
 
 p {
-    font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     line-height: 20px;
 }
@@ -802,7 +810,7 @@ textarea .white-text {
 
 .body_paragraph {
     color: #666666;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
@@ -1160,7 +1168,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     margin: 0;
     font-size: 13px;
@@ -1349,7 +1357,7 @@ Blog
 
 .blog-post-date .day,
 .blog-post-date .month {
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 7px 0 0px 0;
@@ -1523,7 +1531,7 @@ Blog
     font-size: 17px;
     line-height: 23px;
     color: #999;
-    font-family: Raleway;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .blog_post_quote .quote-author {
     color: #279fbb;
@@ -1771,7 +1779,7 @@ Blog Single
 .share-article span {
     font-size: 13px;
     opacity: 0.8;
-    font-family: raleway;
+    font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
     line-height: 40px;
 }
@@ -2364,7 +2372,7 @@ Contact
 .sidebar-icon-item {
     padding: 0 0 15px 0;
     clear: both;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #666666;
 }
@@ -3122,14 +3130,14 @@ Footer
     margin: 0 0 20px 0;
     text-transform: uppercase;
     color: #f2f2f2;
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .footer .footer-col .footer-content {
     color: #d4d4d4;
     line-height: 20px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 0px;
 }
 
@@ -3178,7 +3186,7 @@ Footer
 
 .footer .footer-col .footer-content .nice-time {
     font-size: 10px;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #c9c9c9;
 }
@@ -3254,7 +3262,7 @@ Footer
     border-radius: 5px;
     color: #d2d2d2;
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer .footer-col .footer-content input[type=submit]:hover {
@@ -3269,7 +3277,7 @@ Footer
     height: 40px;
     width: 100%;
     font-size: 11px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #3d301d;
 }
 .footer .copyright a {
@@ -3455,8 +3463,8 @@ Navigation
 /* First Level Styling */
 .navigation > li > a {
     color: #4b4b4b;
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    /* text-transform: uppercase; */
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-decoration: none;
     height: 80px;
@@ -3512,7 +3520,7 @@ Navigation
     -moz-perspective: 1000px;
     -ms-perspective: 1000px;
     perspective: 1000px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .navigation > li > a > span.label-nav-sub::before {
@@ -3637,7 +3645,7 @@ Navigation
     background-color: #fff;
     overflow: hidden;
     position: relative;
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
 }
 
@@ -4394,7 +4402,7 @@ Portfolio Single
     background-color: transparent;
     text-transform: uppercase;
     border: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-tabs .tab a.active {
@@ -4801,7 +4809,7 @@ Revolution Slider Container
 
 
 .slider-text-title {
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 42px;
     color: #1a242f;
@@ -4809,7 +4817,7 @@ Revolution Slider Container
 }
 
 .slider-text-description {
-    font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: #626262;
@@ -4878,7 +4886,7 @@ Search Box
 .price-table {
     margin-top: 22px;
     border-radius: 2px;
-    font-family: Raleway,'Open Sans';
+    font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #F0F0F0;
     border-top: 1px solid #F0F0F0;
 }
@@ -5023,11 +5031,11 @@ Search Box
 .price-table.price-table-special .button {
     margin-top: 12px;
     padding-bottom: 40px;
-    font-family: "Open Sans";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .price-table .button {
-    font-family: "Open Sans";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .price-table.price-table-special .price-table-row-bottom {
@@ -5048,7 +5056,7 @@ Search Box
     font-size: 14px;
     margin: 20px 0 0 0;
     text-transform: lowercase;
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hide-until-loading {
@@ -6182,7 +6190,7 @@ body .tab a {
     font-weight: 500;
     display: block;
     padding: 15px 20px;
-    font-family: "Raleway", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -6253,7 +6261,7 @@ body .tab:first-child {
     padding: 10px;
     -moz-border-radius: 0 4px 4px 4px;
     -webkit-border-radius: 0 4px 4px 4px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tab-container .tabs-content {
